@@ -7,14 +7,21 @@ Group5 - Magdaraog, Mariano, Maisip, Nagrampa
 <html lang="en">
   
 	<style>
-  	body {
-  		border-style: outset;
-  		border-radius: 10px;
-  		padding: 15px; 
-  	}
-  	h1 {
-  		text-align: center;
-  	}
+  		body {
+  			border-style: outset;
+  			border-radius: 10px;
+  			padding: 15px;
+      			font-family: monospace;
+      			margin: 5px;
+	      		box-sizing: border-box;
+	      		width: 350px;
+  		}
+  		h1 {
+  			text-align: center;
+  		}
+    		input {
+			margin-bottom: 5px;
+		}
 	</style>
   
 	<head>
@@ -27,28 +34,28 @@ Group5 - Magdaraog, Mariano, Maisip, Nagrampa
   		</h1>
   
   		<form>
-    		First Name: 
-    			<input type="text" name="firstname"/></br>
+    			First Name: 
+    				<input type="text" name="firstname"/></br>
   			Last Name: 
-    			<input type="text" name="lastname"/></br>
+    				<input type="text" name="lastname"/></br>
   			Nickname: 
-    			<input type="text" name="nickname"/></br>
+    				<input type="text" name="nickname"/></br>
 			E-mail: 
-    			<input type="email" name="email"/></br>
+    				<input type="email" name="email"/></br>
 			Password: 
-    			<input type="password" name="password"/></br>
+    				<input type="password" name="password"/></br>
 			Gender: 
-    			<input type="radio" id="male" name="gender"/>
-      				<label for="male">Male</label>
-     			<input type="radio" id="female" name="gender"/>
-      				<label for="female">Female</label></br>
+    				<input type="radio" id="male" name="gender"/>
+      					<label for="male">Male</label>
+     				<input type="radio" id="female" name="gender"/>
+      					<label for="female">Female</label></br>
   			Mobile Number: 
 				<input type="tel" name="mobilenumber" required pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="### ### ####"/></br>
   			Address: </br>
-    			<textarea name="address" cols="30" rows="10" placeholder="Enter your full address here"></textarea></br></br>
+    				<textarea name="address" cols="30" rows="10" placeholder="Enter your full address here"></textarea></br></br>
 
-			<input type="submit" value="Submit">
-    		<input type="reset" value="Reset">
-    	</form> 
+			<input type="submit" value="Submit" style = "font-family: monospace;">
+    			<input type="reset" value="Reset" style = "font-family: monospace;">
+    		</form> 
 	</body>
 </html>
